@@ -11,6 +11,15 @@ nav .brand-logo {
   color: #444;
 }
 
+.carousel .carousel-item {
+width:500px 
+!important;}
+
+logo-container brand-logo {
+  height: 270px;
+  width: 71px;
+}
+
 p {
   line-height: 2rem;
 }
