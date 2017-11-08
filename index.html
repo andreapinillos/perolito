@@ -23,12 +23,12 @@
   </head>
 
   <body>
-
+<!-- 
     <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block">Perolito Trujillano</div>
-    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block"></div>
+    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block"></div> -->
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+<!--     <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
       <div class="container">
         <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Perolito</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,7 +53,7 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
     <div class="container">
 
@@ -101,9 +101,6 @@
         <div class="text-center mt-4">
           <div class="text-heading text-muted text-lg">Bienvenido a</div>
           <h1 class="my-2">Perolito Trujillano</h1>
-          <div class="text-heading text-muted text-lg">Hecho por
-            <strong>Andrea Pinillos</strong>
-          </div>
           <div><a class="button" href="https://venmo.com/Fras5?via=searchbox" target="_blank"> 
           <img src="img/venmo.png" alt="Venmo" width="220" height="80" border="0">
           </a>
@@ -119,7 +116,7 @@
         <hr class="divider">
         <div class="row">
           <div class="col-lg-6">
-            <img class="img-fluid mb-4 mb-lg-0" src="img/2016/pic3.jpg" alt="" style="height:350px;width:450px;margin:auto">
+            <img class="img-fluid mb-4 mb-lg-0" src="img/2016/pic3.jpg" alt="" style="height:250px;width:380px;margin:auto">
           </div>
           <div class="col-lg-6">
             <p>El Perolito Trujillano es una fiesta de Gala anual que no solo le rinde homenaje al baile más importante de nuestro Peru, sino que congrega a un selecto grupo de compatriotas con el único propósito de seguir fomentando la hermosa tradición que nació en el norte del Peru, en Trujillo.</p>
@@ -169,7 +166,7 @@
         <div class="row">
           <div class="col-lg-8">
             <div class="embed-responsive embed-responsive-16by9 map-container mb-4 mb-lg-0">
-              <iframe frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+              <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=39.069113, -77.491014&amp;spn=38.866561, -77.362470&amp;t=m&amp;z=9&amp;output=embed"></iframe>
             </div>
           </div>
           <div class="col-lg-4">
@@ -177,31 +174,53 @@
             <div class="mb-4">703.932.6472</div>
             <h5 class="mb-0">Email:</h5>
             <div class="mb-4">
-              <a href="mailto:name@example.com">ssternberg27@hotmail.com</a>
+              <a href="mailto:ssternberg27@hotmail.com">ssternberg27@hotmail.com</a>
             </div>
             <h5 class="mb-0">Lugares:</h5>
             <div class="mb-4"> 
-              Belmont Country Club,
+              <a href="https://www.belmontcountryclub.com/" target="_blank">Belmont Country Club,
               <br>
-              Broad Run, VA 20147
+              Broad Run, VA 20147</a>
               <br><br>
-              12025 Lee Jackson Memorial Hwy, 
+              <a href="http://www.waterfordreceptions.com/" target="_blank">12025 Lee Jackson Memorial Hwy, 
               <br>
-              Fairfax, VA 22033
+              Fairfax, VA 22033</a>
             </div>
           </div>
         </div>
       </div>
 
-<!--       <div class="bg-faded p-4 my-4">
+      <div class="bg-faded p-4 my-4">
         <hr class="divider">
-        <h2 class="text-center text-lg text-uppercase my-0">Beautiful boxes to
-          <strong>showcase your content</strong>
+        <h2 class="text-center text-lg text-uppercase my-0">Formulario de 
+          <strong>contacto</strong>
         </h2>
         <hr class="divider">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam soluta dolore voluptatem, deleniti dignissimos excepturi veritatis cum hic sunt perferendis ipsum perspiciatis nam officiis sequi atque enim ut! Velit, consectetur.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam pariatur perspiciatis reprehenderit illo et vitae iste provident debitis quos corporis saepe deserunt ad, officia, minima natus molestias assumenda nisi velit?</p>
-      </div> -->
+        <form>
+          <div class="row">
+            <div class="form-group col-lg-4">
+              <label class="text-heading">Nombre</label>
+              <input type="text" class="form-control">
+            </div>
+            <div class="form-group col-lg-4">
+              <label class="text-heading">Dirección De Correo Electrónico</label>
+              <input type="email" class="form-control">
+            </div>
+            <div class="form-group col-lg-4">
+              <label class="text-heading">Número De Teléfono</label>
+              <input type="tel" class="form-control">
+            </div>
+            <div class="clearfix"></div>
+            <div class="form-group col-lg-12">
+              <label class="text-heading">Mensaje</label>
+              <textarea class="form-control" rows="6"></textarea>
+            </div>
+            <div class="form-group col-lg-12">
+              <button type="submit" class="btn btn-secondary">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
 
     </div>
     <!-- /.container -->

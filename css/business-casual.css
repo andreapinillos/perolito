@@ -21,28 +21,8 @@ h1 {
   font-size: 4rem;
 }
 
-.button {
-  padding: 15px 25px;
-  font-size: 24px;
-  text-align: center;
-  cursor: pointer;
-  outline: none;
-  border: none;
-  border-radius: 15px;
-}
-/* visited link */
-a:visited {
-    color: green;
-}
-
-/* mouse over link */
-a:hover {
-    color: red;
-}
-
-/* selected link */
-a:active {
-    color: yellow;
+a{
+  color: blue;
 }
 
 .tagline-upper {
